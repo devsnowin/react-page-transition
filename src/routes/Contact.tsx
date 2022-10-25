@@ -36,18 +36,18 @@ const Contact = () => {
                     variants={container}
                     initial='hidden'
                     animate='show'
-                    className='flex flex-col items-start text-2xl underline lg:text-6xl gap-2'
+                    className='flex flex-col items-start text-2xl underline lg:text-6xl'
                 >
-                    <Link to='/' className='overflow-hidden'>
+                    <Link to='/' className='py-2.5 overflow-hidden'>
                         <m.li variants={item}>Twitter</m.li>
                     </Link>
-                    <Link to='/' className='overflow-hidden'>
+                    <Link to='/' className='py-2.5 overflow-hidden'>
                         <m.li variants={item}>Instagram</m.li>
                     </Link>
-                    <Link to='/' className='overflow-hidden'>
+                    <Link to='/' className='py-2.5 overflow-hidden'>
                         <m.li variants={item}>Github</m.li>
                     </Link>
-                    <Link to='/' className='overflow-hidden'>
+                    <Link to='/' className='py-2.5 overflow-hidden'>
                         <m.li variants={item}>LinkedIn</m.li>
                     </Link>
                 </m.ul>
